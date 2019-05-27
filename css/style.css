@@ -10,10 +10,15 @@ body {
   height:100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column;
+}
 
 p {
-
   color:white;
   margin:0;
+}
+
+a {
+  color:white;
 }
