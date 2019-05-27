@@ -1,0 +1,19 @@
+body {
+  margin:0;
+  padding:0;
+  background:#000000;
+  overflow:hidden;
+}
+
+.construction {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+p {
+
+  color:white;
+  margin:0;
+}
