@@ -64,8 +64,8 @@ img {
   line-height: 1rem;
 }
 
-@media (min-width:350px) {
+@media (min-width:800px) {
   .construction {
-    /* justify-content: center; */
+    justify-content: center;
   }
 }
