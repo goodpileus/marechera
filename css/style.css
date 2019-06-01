@@ -5,7 +5,7 @@
 body {
   margin:0;
   padding:0;
-  background:#2e2a23;
+  background:#261f1d;
   font-family: sans-serif;
   overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover{
-  color:rgb(255, 189, 77);
+  color:#EA5D36;
 }
 
 p {
@@ -26,9 +26,9 @@ p {
 img {
   /* width: auto; */
   /* height:100%; */
-  max-width: 350px;
+  max-width: 17rem;
   max-height: 100%;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .construction {
@@ -49,11 +49,14 @@ img {
   height:60%;
   overflow: hidden;
   position: relative;
+  padding:1rem 0;
+  display: flex;
+  justify-content: center;
   /* background:green; */
 }
 
 .text {
-  padding-top:1rem;
+  /* padding-top:1rem; */
   font-size: 2rem;
   line-height: 2.5rem;
   width:100%;
