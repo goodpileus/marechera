@@ -1,32 +1,200 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="stop-scrolling">
 
 <head>
-  <title>Marechera</title>
+  <title>Dambudzo Marechera</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8" />
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="What do we talk about when we talk about Dambudzo Marechera">
+  <meta name="keywords" content="Dambudzo, Marechera, trouble">
 
-  <!--css-->
+  <!-- css -->
   <link rel="stylesheet" href="css/style.css">
 
-  <!--favicon-->
-  <link rel="icon" type="image/png" href="">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="img/favi.png">
 
-  <!-- typeface -->
+  <!-- typefaces -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i|PT+Serif:400,400i&display=swap" rel="stylesheet">
 </head>
 
-<body>
-<div class="construction">
-  <div class="text">
-    <p><a href="https://wa.me/263787365051" target="_blank">+263 787 365 051</a></p>
+<body class="bg2">
+  <div id="loading"></div>
+
+  <div id="main-wrap">
+
+    <!-- ABOUT BUTTON & NUMBER -->
+    <div class="float">
+      <div class="num-wrap bg2">
+        <a class="num" href="https://wa.me/263787365051" target="_blank">+263 787 365 051</a>
+      </div>
+    </div>
+
+
+    <ul class="prompt-wrap bg1 show">
+      <div class="prompt-inner">
+        <div class="prompt-container">
+          <div class="prompt1 op1">
+          <h1>Please text me.</h1>
+          </div>
+
+          <div class="prompt2 op2">
+            <h1>I am in a mess and need friends quickly.
+            <br />And perhaps tobacco...</h1><br />
+            <h1 style="text-align:right;">Dambudzo Marechera</h1>
+          </div>
+        </div>
+      </div>
+    </ul>
+
+    <!-- OPEN ABOUT -->
+    <div onclick="showAbout();" class="about-btn bg1">
+      <a class="close-about">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 32 32" xml:space="preserve" preserveAspectRatio="none">
+<path class="st1" d="M5.7,26.3c1.8-0.2,8.2-1,12-6.3c0.4-0.5,4.5-6.4,1.9-9.5c-1.7-2-6-2.6-8.1-0.2c-1.6,1.8-1.8,5.2-0.5,6.1
+	c1.4,0.9,5.2-0.5,16.2-11.6"/>
+        </svg>
+      </a>
+    </div>
+
+
+    <!-- ABOUT -->
+    <div class="about bg2" id="about">
+
+      <!-- CLOSE ABOUT -->
+      <div onclick="showAbout();" class="about-btn bg2">
+        <a class="close-about">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	     viewBox="0 0 32 32" xml:space="preserve" preserveAspectRatio="none">
+          <line class="st1" x1="5.7" y1="5.7" x2="26.3" y2="26.3"/>
+          <line class="st1" x1="26.3" y1="5.7" x2="5.7" y2="26.3"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="about-inner">
+
+        <!-- SLIDES -->
+        <ul class="slide-wrap random" onclick="plusDivs(+1);">
+
+          <li class="slide" >
+            <div class="content">
+              <img src="img/hand5.gif" title="© Ernst Schade" alt="© Ernst Schade">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/sherwood.gif" title="'A Walk Through Sherwood,' Dambudzo Marechera. © Dambuzdo Marechera Trust" alt="'A Walk Through Sherwood,' Dambudzo Marechera. © Dambuzdo Marechera Trust">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/reading.gif" title="© Tessa Colvin" alt="© Tessa Colvin">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/blur-less.gif" title="© Dambuzdo Marechera Trust" alt="© Dambuzdo Marechera Trust">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/wall2.gif" title="© Dambuzdo Marechera Trust" alt="© Dambuzdo Marechera Trust">
+            </div>
+          </li>
+
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/garden.gif" title="© Dambuzdo Marechera Trust" alt="© Dambuzdo Marechera Trust">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/garden2.gif" title="© Dambuzdo Marechera Trust" alt="© Dambuzdo Marechera Trust">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/voice3.gif" title="© Ernst Schade" alt="© Ernst Schade">
+            </div>
+          </li>
+
+          <li class="slide">
+            <div class="content">
+              <img src="img/wanted5.gif" title="" alt="Wanted: Anything and Everything About Author">
+            </div>
+          </li>
+        </ul>
+
+        <p class="about-prompt">Please text or email any anecdotes, voice notes, memes, photos, playlists, book titles, or anything to think about Marechera to the WhatsApp number below or email them to:</p>
+        <p class="about-prompt about-prompt-email"><span class="underline border"><a href="mailto:cemeteryofmind@gmail.com"> cemeteryofmind@gmail.com</a></span></p>
+
+        <div class="about-hr color2">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          	 viewBox="0 0 13 13" style="enable-background:new 0 0 13 13;" xml:space="preserve">
+          <polygon points="8.2,11.2 10.1,11.2 10.1,9.6 11,9.6 11,8.9 11.7,8.9 11.7,8.6 12.1,8.6 12.1,8 11.6,8 11.6,7.5 12.2,7.5 12.2,6.1
+          	12.6,6.1 12.6,5 12.1,5 12.1,4.1 12.1,2.9 11.7,2.9 11.7,2.4 10.2,2.4 10.2,1.8 9.5,1.8 9.5,1.4 9,1.4 9,0.9 5.6,0.9 5.6,0.3
+          	4.4,0.3 4.4,0.8 4,0.8 4,1.3 2.9,1.3 2.9,1.8 2.3,1.8 2.3,2.9 1.9,2.9 1.9,4 1.4,4 1.4,4.5 0.8,4.5 0.8,5 0.4,5 0.4,7.6 0.9,7.6
+          	0.9,9.1 1.4,9.1 1.4,9.6 1.9,9.6 1.9,10.6 2.3,10.6 2.3,11.1 3,11.1 3,11.7 3.9,11.7 3.9,12.6 4.8,12.6 7,12.6 7,11.9 8.2,11.9 "/>
+          </svg>
+        </div>
+
+        <h1>What do we talk about when we talk about Dambudzo Marechera</h1>
+
+        <p>So enduring is Dambudzo Marechera's reputation as the <i>enfant terrible of African literature</i>, yet he is mostly misunderstood. If Marechera had not existed, Zimbabwe would have invented him. And to a degree we have. The person may have been real but the legend that is Dambudzo Marechera, who was part rebel, part iconoclast, is a mountain high papier-mâché god we have all created. These constructions of Marechera have been ignored or erased in the prevailing scholarship of the author. This is a three part crowd sourced project, which complicates Marechera's biography as has been officially told through <i>DAMBUDZO MARECHERA: A Source Book of his Life and Work</i> first published in 1992 in Harare to embrace other plural voices.</p>
+
+        <!-- ABOUT LIST -->
+        <div class="about-list-wrap border">
+          <div class="about-list-row border">
+            <div class="about-list-label">Part 1:</div>
+            <div>Marechera as created by the press.</div>
+          </div>
+          <div class="about-list-row border">
+            <div class="about-list-label">Part 2:</div>
+            <div>Marechera as remembered by young writers across Zimbabwe.</div>
+          </div>
+          <div class="about-list-row border">
+            <div class="about-list-label">Part 3:</div>
+            <div>Marechera as everyone’s buddy.</div>
+          </div>
+        </div>
+
+        <div class="about-hr color2">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          	 viewBox="0 0 13 13" style="enable-background:new 0 0 13 13;" xml:space="preserve">
+          <polygon points="8.2,11.2 10.1,11.2 10.1,9.6 11,9.6 11,8.9 11.7,8.9 11.7,8.6 12.1,8.6 12.1,8 11.6,8 11.6,7.5 12.2,7.5 12.2,6.1
+          	12.6,6.1 12.6,5 12.1,5 12.1,4.1 12.1,2.9 11.7,2.9 11.7,2.4 10.2,2.4 10.2,1.8 9.5,1.8 9.5,1.4 9,1.4 9,0.9 5.6,0.9 5.6,0.3
+          	4.4,0.3 4.4,0.8 4,0.8 4,1.3 2.9,1.3 2.9,1.8 2.3,1.8 2.3,2.9 1.9,2.9 1.9,4 1.4,4 1.4,4.5 0.8,4.5 0.8,5 0.4,5 0.4,7.6 0.9,7.6
+          	0.9,9.1 1.4,9.1 1.4,9.6 1.9,9.6 1.9,10.6 2.3,10.6 2.3,11.1 3,11.1 3,11.7 3.9,11.7 3.9,12.6 4.8,12.6 7,12.6 7,11.9 8.2,11.9 "/>
+          </svg>
+        </div>
+
+        <div class="colophon-wrap">
+          <p class="colophon" >
+            Curated and edited by Dr. Tinashe Mushakavanhu
+          </p>
+          <p class="colophon" style="margin-top:8px;">
+            Site design by Aidan Quinlan with the consultation of Nontsikelelo Mutiti
+          </p>
+          <p class="colophon" style="margin-top:8px;">
+            Images from the <a href="https://rs.cms.hu-berlin.de/marecheraarchive" target="_blank">Dambudzo Marechera Archive of Humboldt University</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="image">
-    <!-- <img src="img/099.gif"> -->
-  </div>
-</div>
+
 <script  src="js/index.js"></script>
+
 </body>
 
 </html>
